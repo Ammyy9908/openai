@@ -103,12 +103,12 @@ function App() {
             </div>
           )}
         </div>
-        <div className="chat-input fixed bottom-2 translate-x-[-50%] z-40 left-[50%] flex items-center gap-3 py-3 border border-gray-300 bg-white/50 rounded-md px-3 ">
-          <input
+        <div className="chat-input fixed bottom-2 translate-x-[-50%] z-40 left-[50%] flex items-center py-6 gap-3  border border-gray-300 bg-white/50 rounded-md px-3 ">
+          <textarea
             type="text"
             name="message"
             id="message"
-            className=" h-[32px] bg-transparent outline-none"
+            className=" w-[320px] h-auto bg-transparent outline-none resize-none "
             placeholder="Message OpenAI.."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
