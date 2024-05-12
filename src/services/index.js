@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const chat = async (message) => {
   try {
-    const response = await axios.post("http://4.224.165.135/chat", {
+    const response = await axios.post("https://api.vikram.life/ai/chat", {
       message,
     });
     return response.data;
