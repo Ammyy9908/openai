@@ -122,9 +122,9 @@ function App() {
         </div>
       </div>
 
-      <button className="fixed w-12 h-12 bg-black bottom-10 right-10 text-white rounded-full flex items-center justify-center shadow-md">
+      {/* <button className="fixed w-12 h-12 bg-black bottom-10 right-10 text-white rounded-full flex items-center justify-center shadow-md">
         <MdChatBubble />
-      </button>
+      </button> */}
     </div>
   );
 }
